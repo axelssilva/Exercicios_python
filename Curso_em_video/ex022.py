@@ -1,0 +1,7 @@
+nome = str(input('Qual o seu nome? '))
+print(nome.upper())
+print(nome.lower())
+nnome = len(nome.replace(" ",""))
+print(f'Seu nome tem {nnome} letras')
+snome = nome.split()
+print(f'Seu primeiro nome tem {len(snome[0])} letras')
