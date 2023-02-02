@@ -1,0 +1,5 @@
+algo = input('Digite algo: ')
+a = algo.isalpha()
+n = algo.isnumeric()
+an = algo.isalnum()
+print(type(algo), f'\nÉ alfabeto? {a}\nÉ número? {n}\nÉ alfanumérico? {an}')
