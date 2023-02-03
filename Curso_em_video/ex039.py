@@ -1,6 +1,6 @@
 from datetime import date
 atual = date.today().year
-nasc = int(input('Em que ano nsaceu? '))
+nasc = int(input('Em que ano nasceu? '))
 idade = atual - nasc
 pas = idade-18
 vem = 18-idade
