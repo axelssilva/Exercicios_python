@@ -13,3 +13,5 @@ for c in range(0, 5):
         if num[c] < menor:
             menor = num[c]
 print(f'O maior é {maior}\nE o menor é {menor}')
+
+# podemos utilizar para encontrar maior e menor os comandos max(num) e min(num)
